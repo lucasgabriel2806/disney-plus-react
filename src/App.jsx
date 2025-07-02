@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Header from './components/Header';
+
 import './App.css';
 
 import './index.css';
@@ -7,12 +9,15 @@ import './index.css';
 function App() {
 
   return (
+
     <>
-      <h1 className="flex text-3xl font-bold underline">
-        Hello world!
-      </h1>
+
+      <Header />
+
     </>
+
   )
+  
 }
 
-export default App
+export default App;
