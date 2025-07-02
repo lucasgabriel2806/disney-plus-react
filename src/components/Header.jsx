@@ -2,7 +2,7 @@ import React from 'react';
 
 import HeaderItem from './HeaderItem';
 
-import logo from './../assets/Images/logo.png';
+import disney_plus_logo from './../assets/Images/disney-plus.png';
 
 import { 
     HiHome,
@@ -50,7 +50,7 @@ function Header() {
 
         <div className='flex'>
 
-            <img src={logo} 
+            <img src={disney_plus_logo} 
             alt='Disney Plus Logo'
             className='
             w-[80px] 
@@ -69,14 +69,6 @@ function Header() {
         <img src='https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745' 
         alt='Foto do usuário'
         className='w-[40px] rounded-full' />
-
-        {/* 
-
-        https://www.youtube.com/watch?v=3NHYl0Lo74A&t=591s
-
-        21:34 
-
-        */}
 
     </div>
 

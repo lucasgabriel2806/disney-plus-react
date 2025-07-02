@@ -10,11 +10,11 @@ Site clone da plataforma de streaming disney plus desenvolvido em React.js, Tail
 
 ## Executar o projeto
 
-Abra o terminal e digite:
+Abra o terminal e digite os comandos:
 
-```Markdown
-npm run dev
-```
+<code>npm i</code> - Para instalar as dependências
+
+<code>npm run dev</code> - Para criar o servidor da aplicação 
 
 <br>
 
