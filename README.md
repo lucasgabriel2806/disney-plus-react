@@ -1,9 +1,12 @@
 <h1 align="center">Disney Plus - React.js </h1>
 
-Site da plataforma de streaming disney plus desenvolvido em React.js, tailwind css e Vite. <br>
+Site clone da plataforma de streaming disney plus desenvolvido em React.js, Tailwind CSS eVite. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="logo do react" style="width: 30px; display: inline-block; margin-right: 100px;"> &nbsp;&nbsp; <img src="https://img.icons8.com/color/512/tailwindcss.png" alt="logo do tailwindcss" style="width: 30px; display: inline-block;">
-<!-- <img src="src/assets/Images/logo.png"> -->
+<br>
+
+<img src="src/assets/Images/react.png" alt="logo do react" style="width: 30px; display: inline-block; margin-right: 100px;"> &nbsp;&nbsp; <img src="src/assets/Images/tailwindcss.png" alt="logo do tailwindcss" style="width: 30px; display: inline-block;"> &nbsp;&nbsp; <img src="src/assets/Images/vite.png" alt="logo do tailwindcss" style="width: 30px; display: inline-block;">
+
+<br>
 
 ## Executar o projeto
 
@@ -11,4 +14,20 @@ Abra o terminal e digite:
 
 ```Markdown
 npm run dev
+```
+
+<br>
+
+## Status do projeto
+
+```Markdown
+Em desenvolvimento
+```
+
+<br>
+
+## Vídeo do projeto
+
+```Markdown
+https://www.youtube.com/watch?v=3NHYl0Lo74A&t=591s - 21:34
 ```
