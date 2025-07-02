@@ -1,12 +1,14 @@
-# React + Vite
+<h1 align="center">Disney Plus - React.js </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site da plataforma de streaming disney plus desenvolvido em React.js, tailwind css e Vite. <br>
 
-Currently, two official plugins are available:
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="logo do react" style="width: 30px; display: inline-block; margin-right: 100px;"> &nbsp;&nbsp; <img src="https://img.icons8.com/color/512/tailwindcss.png" alt="logo do tailwindcss" style="width: 30px; display: inline-block;">
+<!-- <img src="src/assets/Images/logo.png"> -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Executar o projeto
 
-## Expanding the ESLint configuration
+Abra o terminal e digite:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```Markdown
+npm run dev
+```
