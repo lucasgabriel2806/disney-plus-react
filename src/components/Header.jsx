@@ -46,9 +46,9 @@ function Header() {
 
   return (
 
-    <div className='flex items-center gap-8 justify-between'>
+    <div className='flex items-center justify-between p-5'>
 
-        <div className='flex'>
+        <div className='flex items-center gap-8'>
 
             <img src={disney_plus_logo} 
             alt='Disney Plus Logo'

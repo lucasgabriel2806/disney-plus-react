@@ -7,7 +7,8 @@ function HeaderItem({ name, Icon }) {
     <div 
     className='
     text-white flex items-center gap-3
-    text-[18px] font-semibold cursor-pointer
+    text-[15px] font-semibold cursor-pointer
+    hover:underline underline-offset-8
     '>
 
         <Icon />
