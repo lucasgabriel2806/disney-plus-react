@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import HeaderItem from './HeaderItem';
 
@@ -15,6 +15,8 @@ import {
 import { HiPlus, HiDotsVertical } from 'react-icons/hi';
 
 function Header() {
+
+  const [toggle, setToggle] = useState(false);
 
   const menu = [
     {
@@ -76,19 +78,20 @@ function Header() {
 
                 ))}
 
-                <div className="md:hidden">
+                <div className="md:hidden" onClick={()=>setToggle(!toggle)}>
 
                     <HeaderItem name={''} Icon={HiDotsVertical} />
 
-                    <div>
+                    {toggle?<div className='absolute mt-3 bg-[#121212] border-[1px] border-gray-700 p-3
+                    px-5 py-4'>
 
-                        {menu.map((item, index) => index>3&& (
+                        {menu.map((item, index) => index>2&& (
                     
-                            <HeaderItem name={''} Icon={item.icon} />
+                            <HeaderItem name={item.name} Icon={item.icon} />
 
-                        ))}    
+                        ))}
                         
-                    </div>
+                    </div>:null}
 
                 </div>
 
