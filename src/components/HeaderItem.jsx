@@ -13,7 +13,7 @@ function HeaderItem({ name, Icon }) {
 
         <Icon />
 
-        <h2 className='hidden md:block'>{name}</h2>
+        <h2 className=''>{name}</h2>
 
     </div>
 
