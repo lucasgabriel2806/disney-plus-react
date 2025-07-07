@@ -31,3 +31,8 @@ Em desenvolvimento
 ```Markdown
 https://www.youtube.com/watch?v=3NHYl0Lo74A&t=591s - 53:08
 ```
+
+```Markdown
+Consertar erro do overflow (arrastar com o mouse em telas pequenas)
+https://www.youtube.com/watch?v=3NHYl0Lo74A&t=591s - 53:08
+```
